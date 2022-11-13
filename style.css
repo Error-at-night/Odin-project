@@ -62,6 +62,7 @@ form .div-form div{
 
 input{
     padding: 8px 15px;
+    border-radius: 6px;
 }
 
 input:focus{
