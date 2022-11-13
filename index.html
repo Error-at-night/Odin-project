@@ -25,7 +25,7 @@
             </div>
             <div class="form-box-shadow">
                 <h2>Let's do this!</h2>
-               <form action="" method="">
+                <form action="" method="">
                     <div class="div-form">
                         <div>
                             <label for="firstname">FIRST NAME</label><br>
@@ -39,7 +39,8 @@
             
                         <div>
                             <label for="password">PASSWORD</label><br>
-                            <input type="password" name="password" id="password" size="30" required placeholder="Password" pattern="[0-9 A-Z a-z]{6-12}">
+                            <input type="password" name="password" id="password" size="30" required placeholder="Password" pattern="[0-9 A-Z a-z]{6-12}" 
+                            title="password can contain alphabet and numbers, atleast 6 letters, at most 12">
                         </div>
                     </div>
             
@@ -51,12 +52,14 @@
     
                         <div>
                             <label for="phone number">PHONE NUMBER</label><br>
-                            <input type="text" name="phone number" id="phone number" size="30" required pattern="[0-9]{11-16}" placeholder="Phone Number">
+                            <input type="text" name="phone number" id="phone number" size="30" required pattern="[0-9]{11-16}" placeholder="Phone Number"
+                            title="phone number must be between 11 - 16 numbers">
                         </div>
     
                         <div class="form">
                             <label for="confirm password">CONFIRM PASSWORD</label><br>
-                            <input type="password" name="confirm password" id="confrim password" size="30" required placeholder="Confirm Password" pattern="[0-9 A-Z a-z]{6-12}">
+                            <input type="password" name="confirm password" id="confrim password" size="30" required placeholder="Confirm Password" pattern="[0-9 A-Z a-z]{6-12}"
+                            title="password can contain alphabet and numbers, atleast 6 letters, at most 12">
                         </div>
                     </div>
                 </form>
